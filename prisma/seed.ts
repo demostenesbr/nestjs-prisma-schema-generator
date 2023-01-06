@@ -1,4 +1,4 @@
-import { products } from './products';
+import { products } from './../src/shared/products';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
